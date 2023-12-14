@@ -9,7 +9,8 @@
     "build": "npx tsc --project tsconfig.build.json",
     "start:prod": "node dist/index.js",
     "start:dev": "nodemon src/index.ts",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:ci": "jest"
   },
   "keywords": [],
   "author": "",
